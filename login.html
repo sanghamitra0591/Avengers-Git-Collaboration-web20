@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in Page</title>
+    <style>
+        body{
+            background: linear-gradient(160deg,#2980b9,#8e44ad);
+        }
+        #container{
+            width:23%;
+            margin: 40px auto;
+            padding: 20px 40px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        #container h1{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 35px;
+            font-family: sans-serif;
+            margin: 60px auto 20px auto;
+        }
+        #container>div{
+            width: 80%;
+            margin: 20px auto;
+            padding: 30px;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        #container>div>div{
+            margin-top: 20px;
+            font-size: 17px;
+        }
+        input{
+            width: 100%;
+            border:none;
+            padding: 8px;
+            outline: none;
+            font-size: 15px;
+            margin-top: 35px;
+            border-bottom: 2px solid slategray;
+        }
+        input[type="submit"]{
+            width: 100%;
+            height: 50px;
+            background: linear-gradient(160deg,#2980b9,#8e44ad);
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <form>
+            <h1>Login</h1>
+            <div>
+                <input type="email" placeholder="Email" >
+                <input type="password" placeholder="Password" >
+                <input type="submit" value="Login">
+            </div>
+        </form>
+        <div>
+            <div>Forgot <a href="#">Password</a>?</div>
+            <div>Don't have an account? <a href="#">Signup</a></div>
+        </div>
+    </div>
+</body>
+</html>
