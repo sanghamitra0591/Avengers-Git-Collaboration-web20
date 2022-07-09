@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign_up Page</title>
+<style>
+    h2{
+        text-align: center;
+    }
+.parent{
+justify-content: center;
+color: white;
+max-width:500px ;
+padding: 60px;
+background-color: white;
+margin: auto;
+margin-top: 100px;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color:#5aa78a;
+  margin: auto;
+}
+
+.form-container input[type=text], .form-container input[type=email], .form-container input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=email]:focus,form.form-container input[type=text] {
+  background-color: #ddd;
+  outline: none;
+}
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+h1{
+    text-align: center;
+}
+</style>
+</head>
+<body>
+    <div class="parent">
+<div >
+  <form  class="form-container">
+    <h2>-Visitor-</h2>
+
+    <input type="text" placeholder="Full name" name="name" required>
+
+    <input type="email" placeholder="Email" name="email" required>
+
+    <input type="text" placeholder="Organiztion" name="organization" required>
+
+    <button type="submit" class="btn">SIGN UP</button>
+   
+    <button type="sumbit" class="btn">RETURN</button>
+  </form>
+</div>
+</div>
+</body>
+</html>
